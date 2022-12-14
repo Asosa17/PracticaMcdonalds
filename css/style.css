@@ -21,20 +21,23 @@
 a {
     text-decoration: none;
     color: black;
-    
+
 
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    text-shadow: 0.1em 0.1em 0.3em  rgb(255, 188, 15);
+    text-shadow: 0.1em 0.1em 0.3em rgb(255, 188, 15);
     color: black;
-   
+
 }
-li{
+
+li {
     transition: 500ms ease;
 }
-li:hover{
- transform: scale(107%);
+
+li:hover {
+    transform: scale(107%);
 }
 
 .sticky {
@@ -45,11 +48,11 @@ li:hover{
     z-index: 1;
 }
 
-header nav ul,
-header nav li {
+header nav ul,header nav li {
     padding: 0;
     margin: 0;
 }
+
 
 header nav li {
     list-style-type: none;
@@ -68,6 +71,7 @@ header nav ul ul {
 
 header nav ul li:hover ul {
     display: block;
+    top: 36px;
     padding-top: 20px;
     overflow-y: scroll;
     height: 500px;
@@ -91,15 +95,12 @@ header nav ul ul li:hover {
 
 }
 
-
-
 .grande {
     background-image: url(../img/grande.jpg);
     height: 650px;
     background-size: cover;
     display: flex;
     align-items: center;
-
 }
 
 .combo {
@@ -114,11 +115,12 @@ header nav ul ul li:hover {
     color: rgb(167, 167, 167);
     transition: 500ms ease;
 }
-.bot2:hover{
+
+.bot2:hover {
     padding: 13px 60px 10px 60px;
     border-style: none;
     border-radius: 5px;
-    background-color:  rgb(167, 167, 167);
+    background-color: rgb(167, 167, 167);
     color: rgb(0, 0, 0);
     transform: scale(120%);
 }
@@ -131,14 +133,16 @@ header nav ul ul li:hover {
     border-style: none;
     transition: 500ms ease;
 }
-.bot1:hover{
+
+.bot1:hover {
     padding: 10px 20px;
     background-color: rgb(0, 0, 0);
-    color: rgb(245, 191, 69) ;
+    color: rgb(245, 191, 69);
     border-radius: 5px;
     border-style: none;
     transform: scale(120%);
 }
+
 .bot3 {
     float: right;
     margin: 10px;
@@ -149,16 +153,18 @@ header nav ul ul li:hover {
     color: black;
     transition: 500ms ease;
 }
-.bot3:hover{
+
+.bot3:hover {
     float: right;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border-style: none;
     background-color: rgb(0, 0, 0);
-    color: rgb(245, 191, 69) ;
+    color: rgb(245, 191, 69);
     transform: scale(107%);
 }
+
 .container2 {
     width: 80%;
     margin: 0 auto;
@@ -166,7 +172,7 @@ header nav ul ul li:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    
+
 }
 
 .card1 {
@@ -190,7 +196,7 @@ header nav ul ul li:hover {
     border: 1px solid rgb(219, 219, 219);
     margin-top: 20px;
     box-shadow: 0 0 10px 10px rgb(221, 221, 221);
-    
+
 
 
 }
@@ -204,7 +210,8 @@ header nav ul ul li:hover {
     width: 90%;
     margin: 0 auto;
 }
-.container3{
+
+.container3 {
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -212,9 +219,10 @@ header nav ul ul li:hover {
     font-size: small;
     text-align: justify;
     padding: 20px 0;
-    
+
 }
-.container4{
+
+.container4 {
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -223,28 +231,34 @@ header nav ul ul li:hover {
     text-align: left;
     padding: 20px 0 20px 100px;
 
-    
-    
+
+
 }
-.items{
+
+.items {
     align-items: center;
 }
-.aviso{
+
+.aviso {
     width: 20%;
     margin-top: -10px;
 }
-.texto{
+
+.texto {
     width: 70%;
     margin-right: 100px;
 }
-.logo{
+
+.logo {
     background-color: rgb(255, 188, 13);
-    
+
 }
-.download{
+
+.download {
     text-align: center;
 }
-.refers{
+
+.refers {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -254,35 +268,40 @@ header nav ul ul li:hover {
     margin: 0 auto;
 }
 
-.morado{
+.morado {
     color: rgb(77, 33, 135);
-    width: 60%; 
+    width: 60%;
     transition: 500ms ease;
 }
-.morado:hover{
+
+.morado:hover {
     color: rgb(77, 33, 135);
-    width: 60%; 
+    width: 60%;
     transform: scale(150%);
     text-shadow: none;
 }
-.enlaces{
+
+.enlaces {
     margin: 0 auto;
     width: 80%;
     display: flex;
     justify-content: space-between;
     border-top-style: groove;
     padding: 10px 0 30px 0;
-   
-    
+
+
 }
-.copy{
+
+.copy {
     font-size: x-small;
 }
-.img{
-     border-radius: 5px;
+
+.img {
+    border-radius: 5px;
     transition: 500ms ease;
 }
-.img:hover{
-   
+
+.img:hover {
+
     transform: scale(90%);
 }
